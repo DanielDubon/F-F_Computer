@@ -9,7 +9,7 @@ def tokenizar_produccion(produccion):
 
     patron = r'[A-Za-z]+\'?|[+\*/()]|id|e|->|\|'
     tokens = re.findall(patron, produccion)
-    print("DEGBUG TOKENIZAR PRODUCCION:", tokens)
+    #print("DEGBUG TOKENIZAR PRODUCCION:", tokens)
 
     return tokens
 
